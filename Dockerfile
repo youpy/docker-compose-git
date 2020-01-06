@@ -1,3 +1,3 @@
-FROM docker:git
+FROM docker/compose
 
-RUN apk update && apk add py-pip gettext && pip install docker-compose
+RUN apk update && apk add --no-cache git gettext
