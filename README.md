@@ -8,3 +8,4 @@ A Docker image for use in CI service such as Gitlab CI.
 - git
 - docker-compose
 - envsubst
+- openssh

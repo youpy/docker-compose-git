@@ -1,3 +1,3 @@
 FROM docker/compose
 
-RUN apk update && apk add --no-cache git gettext
+RUN apk update && apk add --no-cache git openssh gettext
